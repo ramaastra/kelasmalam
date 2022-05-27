@@ -1,0 +1,149 @@
+.about-container {
+  background-color: var(--darker-blue);
+  display: flex;
+}
+
+.about-content {
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-content h1 {
+  display: inline;
+  border-bottom: 2px solid var(--primary-green);
+}
+
+.about-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 20px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  /* padding: 0 40px; */
+}
+
+.about-section {
+  display: flex;
+  margin: auto;
+  gap: 15px;
+  width: 80%;
+  align-items: center;
+}
+
+.about-section .icon {
+  background-color: var(--dark-blue);
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.about-section .icon img {
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.about-tagline p {
+  color: var(--primary-green);
+  font-style: italic;
+  font-weight: 600;
+  margin: 0 50px;
+}
+
+
+@media screen and (min-width: 600px) {
+  .about-content {
+    padding: 50px 0;
+  }
+
+  .about-content h1 {
+    border-bottom: 3px solid var(--primary-green);
+    font-size: 30px;
+  }
+
+  .about-text {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+  .about-section .icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .about-section .icon img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .about-tagline p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-text {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 55px;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .about-section {
+    flex-direction: column;
+    margin: 0;
+    width: 40%;
+  }
+
+  .about-section .icon {
+    height: 65px;
+    width: 65px;
+  }
+
+  .about-section .icon img {
+    height: 65px;
+    width: 65px;
+  }
+
+  .about-tagline p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-content h1 {
+    font-size: 36px;
+  }
+
+  .about-text {
+    font-size: 20px;
+    gap: 70px;
+    margin-bottom: 75px;
+  }
+
+  .about-section .icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  .about-section .icon img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .about-tagline p {
+    font-size: 28px;
+  }
+}

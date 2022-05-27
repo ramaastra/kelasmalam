@@ -1,0 +1,93 @@
+.footer-container {
+  background-color: var(--dark-blue);
+  width: 100vw;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+  padding: 35px 0;
+  text-align: center;
+}
+
+footer .logo {
+  font-size: 25px;
+}
+
+footer nav {
+  display: flex;
+  font-size: 14px;
+  gap: 15px;
+}
+
+footer nav a:hover {
+  color: var(--primary-green);
+}
+
+.socmed {
+  display: flex;
+  gap: 20px;
+}
+
+.socmed svg {
+  fill: white;
+  width: 20px;
+}
+
+.socmed svg:hover {
+  cursor: pointer;
+  fill: var(--primary-green);
+}
+
+@media screen and (min-width: 600px) {
+  .footer-content {
+    gap: 35px;
+    padding: 45px 0;
+  }
+
+  footer .logo {
+    font-size: 28px;
+  }
+
+  footer nav {
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  .socmed {
+    gap: 25px;
+  }
+
+  .socmed svg {
+    width: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-content {
+    padding: 60px 0;
+  }
+
+  footer .logo {
+    font-size: 36px;
+  }
+  
+  footer nav {
+    gap: 25px;
+  }
+
+  footer nav li {
+    font-size: 18px;
+  }
+
+  .socmed {
+    gap: 30px;
+  }
+
+  .socmed svg {
+    width: 25px;
+  }
+}

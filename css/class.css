@@ -1,0 +1,175 @@
+.class-container {
+  background-color: var(--darker-blue);
+  width: 100vw;
+}
+
+.class-content {
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.class-content h1 {
+  border-bottom: 2px solid var(--primary-green);
+  display: inline;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.class {
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+  padding: 35px 40px;
+  width: 300px;
+}
+
+.class h3 {
+  font-size: 24px;
+}
+
+.benefit-list {
+  margin: auto;
+}
+
+.benefit-list li {
+  font-size: 14px;
+  text-align: left;
+}
+
+.class h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.class h4 span {
+  color: var(--primary-green);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: var(--primary-green);
+  border-radius: 70px;
+  color: var(--darker-blue);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  margin: auto;
+  padding: 7px 50px;
+}
+
+.btn:hover {
+  background-color: #86ee96;
+}
+
+@media screen and (min-width: 600px) {
+  .class-container {
+    padding: 20px;
+  }
+
+  .class-content h1 {
+    border-bottom: 3px solid var(--primary-green);
+    font-size: 30px;
+  }
+
+  .class-list {
+    gap: 17px;
+    margin-top: 40px;
+  }
+  
+  .class {
+    border-radius: 12px;
+    gap: 35px;
+    width: 325px;
+  }
+  
+  .class h3 {
+    font-size: 27px;
+  }
+  
+  .benefit-list {
+    margin: auto;
+  }
+  
+  .benefit-list li {
+    font-size: 16px;
+  }
+  
+  .class h4 {
+    font-size: 20px;
+  }
+  
+  .class h4 span {
+    font-size: 37px;
+  }
+
+  .btn {
+    border-radius: 72px;
+    font-size: 22px;
+    padding: 9px 52px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .class-container {
+    padding: 20px 0;
+  }
+  
+  .class-list {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .class {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .class-content h1 {
+    font-size: 36px;
+  }
+
+  .class-list {
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .class {
+    border-radius: 14px;
+    padding: 70px 40px;
+    width: 450px;
+  }
+
+  .class h3 {
+    font-size: 34px;
+  }
+
+  .class li {
+    font-size: 18px;
+  }
+
+  .class h4 {
+    font-size: 22px;
+  }
+
+  .class h4 span {
+    font-size: 39px;
+  }
+
+  .btn {
+    border-radius: 74px;
+    font-size: 24px;
+    padding: 11px 54px;
+  }
+}
